@@ -1,0 +1,1 @@
+cout<< mhs.nama<<endl;

@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     system("cls");
 
-    //vector declaration and initia
+    //vector declaration and initial
     vector<string> nama = {"Andi", "Budi", "Santi", "Wanto", "Denis"};
 
     // accessing element in vector
