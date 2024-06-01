@@ -1,9 +1,10 @@
 #include <iostream>
-#include "operasi_baru.h"
-#include "preprocessor.h"
+#include "operasi_baru.h" //memasukkan file header
+#include "preprocessor.h" //memasukkan file header
 
-uns;
+uns; //uns adalah using namespace std
 
+// Deklarasi sayHello untuk menampilkan Hello
 void sayHello(string name) {
     cout<<"Hello "<<name<<endl;
 }

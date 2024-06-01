@@ -20,6 +20,7 @@ class Mahasiswa {
     }
 
     // getter method untuk mendapatkan nilai
+    
     string getNama(){
         return this-> nama;
     }

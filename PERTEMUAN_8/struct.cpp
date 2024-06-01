@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-struct Mahasiswa{ // struct harus pake diawali huruf kapital
+struct Mahasiswa{ // struct harus diawali huruf kapital
     string nama, nim;
     float nilai;
 };

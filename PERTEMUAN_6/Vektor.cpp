@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>
+#include<vector> //vektor untuk menyimpan kumpulan elemen yang terurut
 using namespace std;
 
 int main(){

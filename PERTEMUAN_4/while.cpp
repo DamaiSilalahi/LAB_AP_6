@@ -9,9 +9,10 @@ int main()
     //     i++;
     // }
 
+     // Perulangan while untuk mencetak angka genap dari 1 sampai 20
     while (i<=20)
     {
-        if (i % 2 == 0)
+        if (i % 2 == 0) // Memeriksa apakah i adalah angka gena
         {
             cout<<i<<" ";
         }

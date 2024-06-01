@@ -8,7 +8,7 @@ main()
 //         cout<<i<<endl;
 //         i++;
 //     }
-//     while(i<=10);
+//     while(i<=10); // Melakukan perulangan selama 'i' kurang dari atau sama dengan 10
 // }
 
     do {

@@ -33,21 +33,23 @@ main()
     //     }
     //     cout<<endl;
     // }
+
     int suku, num=0, sum=0 ;
     cout<<"Masukkan suku ke-: ";
     cin>>suku;
+
 
     for (i=1; i<=suku; i++)
     {
         if (i % 2 == 0)
         {
-            num=num;
+            num=num; // Jika i genap, num tetap
         }
         else {
-            num +=5;
+            num +=5; // Jika i ganjil, num ditambah 5
             
         }
-        sum +=num;
+        sum +=num; // Menambahkan num ke sum
         cout<<num<<" ";
     }
     cout<<endl;

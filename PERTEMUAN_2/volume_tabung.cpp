@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    const float PHI = 3.14;
+    const float PHI = 3.14; // Konstanta PHI untuk nilai π (pi)
 
     float r, t, v;
 

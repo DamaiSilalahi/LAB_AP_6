@@ -13,16 +13,12 @@ int main() {
         cout << "Tidak Lulus" << endl;
     }
 
-    
-    
     // If-Else Statement
     if (nilai < 65) {
         cout << "Tidak Lulus" << endl;
     } else {
         cout << "Lulus" << endl;
     }
-
-
 
     // If-Else-If Statement
     if (nilai < 65) {
@@ -33,9 +29,7 @@ int main() {
         cout << "Lulus dengan nilai pas" << endl;
     }
 
-
-
-    // Nested If
+    // Nested If (mengeksekusi pernyataan if di dalam blok if lainnya)
     if (nilai < 0 || nilai > 100) {
         cout << "Tidak valid" << endl;
     } else {
@@ -47,8 +41,6 @@ int main() {
             cout << "Lulus dengan nilai pas" << endl;
         }
     }
-
-
 
     // Switch Case
     switch (nilai) {
@@ -78,8 +70,6 @@ int main() {
             break;  // Opsional
     }
 
-
-
     // Switch Case For Range
     switch (nilai) {
         case 90 ... 100:
@@ -107,9 +97,7 @@ int main() {
             cout << "Tidak valid" << endl;
     }
 
-
-
-    // Ternary Operator (Shorthand If-Else)
+    // Ternary Operator (Shorthand If-Else) membuat ekspresi kondisional yang pendek
     string tipe = (nilai > 0) ? "Positif" : "Negatif";
     cout << tipe << endl;
 }

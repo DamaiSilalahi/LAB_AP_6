@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    //goto untuk melompat langsung ke bagian dari kode yang ingin dituju    
+
     // a:
     // cout<<"Saya ";
     // goto c;
@@ -25,6 +27,6 @@ int main()
 
     if(i<=10)
     {
-        goto loop;
+        goto loop; // Mengulang loop jika i masih kurang dari atau sama dengan 10
     }
 }

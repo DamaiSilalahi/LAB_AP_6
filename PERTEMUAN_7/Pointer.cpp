@@ -10,7 +10,7 @@
  {
     system("cls");
 
-    // //pointer declaration
+    //pointer declaration
     // // normal variable -> var_ame(data), &var_name(adress)
     // int number = 16;
     // // pointer variable -> var_name(address of pointed variable), *var_name(data of pointed variable)
@@ -22,7 +22,7 @@
     // cout<<"isi variabel ptrnumber: "<<ptrnumber<<endl;
     // cout<<"Isi var yang ditunjul ptrnumber: "<<*ptrnumber<<endl;
 
-    // //pointer operation
+    //pointer operation
     // *ptrnumber = 37;
 
     // cout<<"Isi variabel number: "<<number<<endl;

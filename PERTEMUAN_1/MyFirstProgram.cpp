@@ -15,7 +15,7 @@ int main ()
     
     cout<<"Masukkan Nama : ";
    //cin>> nama;
-   getline(cin,nama);
+   getline(cin,nama); // getline digunakan untuk membaca string termasuk spasi
    
     cout<<"Masukkan Nim : ";
     cin>> nim;
@@ -30,7 +30,7 @@ int main ()
     cout<< " Nim : "<< nim <<endl;
     cout<< " Kom : "<< kom <<endl;
     cout<<fixed;
-    cout<<setprecision(2);
+    cout<<setprecision(2); // mengatur jumlah angka desimal
     cout<< " IP : "<< ip <<endl;
     return 0;
 }

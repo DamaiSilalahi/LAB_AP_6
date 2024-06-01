@@ -11,7 +11,7 @@ int main() {
     cout << "Masukkan lebar : ";
     cin >> lebar;
 
-    luas = panjang * lebar;
+    luas = panjang * lebar; // Menghitung luas (panjang x lebar)
 
     cout << "Luas = " << luas << endl;
 }

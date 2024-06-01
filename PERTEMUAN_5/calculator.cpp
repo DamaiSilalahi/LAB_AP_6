@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cmath>
-#include "calc.h"
+#include "calc.h" // Memasukkan file header untuk fungsi-fungsi kalkulator
 using namespace std;
 
+//void tidak mengembalikan nilai apapun
 void garis() {
     cout<< "====================="<<endl;
 }
@@ -64,7 +65,7 @@ int main() {
     cout<<"Apakah anda ingin melanjutkan? [Y/N]: ";
     cin>>cont;
 
-    } while(toupper(cont) == 'Y' );
+    } while(toupper(cont) == 'Y' ); //Fungsi ini mengubah karakter yang disimpan dalam cont menjadi huruf kapital.
 
     bintang();
     cout<<"Terimakasih telah menggunakan Kalkulator Kami HEHEHE"<<endl;

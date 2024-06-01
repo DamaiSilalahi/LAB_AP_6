@@ -7,12 +7,12 @@ int main()
     char kom;
     float ip;
 
-    system("CLS");
+system("CLS");
  printf("Hello world\n");
  
  printf("Masukkan nama: ");
  //scanf("%s",&nama);
- gets(nama); //gets: get string
+ gets(nama); //gets: get string -> Mengambil string termasuk spasi
  
  printf("Masukkan nim: ");
  scanf("%d",&nim);
@@ -25,7 +25,7 @@ int main()
  
 // printf("Nama : %s\n",nama);
 printf("Nama: ");
-puts(nama); //puts string
+puts(nama); //puts string -> Mencetak string diikuti dengan newline
  printf("NIM : %d\n",nim);
  printf("KOM : %c\n",kom);
  printf("IP: %.2f\n",ip);

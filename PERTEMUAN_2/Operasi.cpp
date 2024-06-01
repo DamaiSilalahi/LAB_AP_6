@@ -43,20 +43,19 @@ int main() {
     // cout << (false || true) << endl;
     // cout << (false || false) << endl;
 
-    // cout << !true << endl;
-    // cout << !false << endl;
-
+    // cout << !true << endl;   //Memeriksa apakah kondisi bukan true (false)
+    // cout << !false << endl;  // Memeriksa apakah kondisi bukan false (true)
     
     // Bitwise Operator
-    // cout << (4 & 7) << endl;
-    // cout << (4 | 7) << endl;
-    // cout << (4 ^ 7) << endl;
-    // cout << (~4) << endl;
-    // cout << (7 << 2) << endl;
-    // cout << (7 >> 2) << endl;
+    // cout << (4 & 7) << endl; //AND
+    // cout << (4 | 7) << endl; //OR
+    // cout << (4 ^ 7) << endl; //XOR
+    // cout << (~4) << endl;    //NOT
+    // cout << (7 << 2) << endl;//LEFT SHIFT
+    // cout << (7 >> 2) << endl;//RIGHT SHIFT
 
 
-    // Shorthand
+    // Shorthand (Operator Singkat)
     // a = a + 2;
     // a += 2;
     // a -= 2;
@@ -72,20 +71,20 @@ int main() {
 
     // Increment & Decrement Operator
     // Post Increment
-    cout << a++ << endl;
+    cout << a++ << endl; // Menampilkan a lalu menambahkan a
     cout << a << endl;
 
     // Pre Increment
     cout << a << endl;
-    cout << ++a << endl;
+    cout << ++a << endl;  // Menambahkan a lalu menampilkan a
 
     cout << endl;
 
     // Post Decrement
-    cout << b-- << endl;
+    cout << b-- << endl; // Menampilkan b lalu mengurangi b
     cout << b << endl;
 
     // Pre Decrement
     cout << b << endl;
-    cout << --b << endl;
+    cout << --b << endl; // Mengurangi b lalu menampilkan b
 }
